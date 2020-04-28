@@ -1,0 +1,35 @@
+.container-list{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 29px 19px 79px -8px #000002 ;
+}
+
+.post-id{
+    flex: 0.2;
+}
+
+.post-title h2{
+    font-size: 30px;
+    color:  #212121;
+    text-align: left;
+}
+
+.post-description{
+    flex: 0.8;
+}
+
+.post-description p{
+    font-size: 16px;
+    color: white;
+    text-align: left;
+}
